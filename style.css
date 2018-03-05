@@ -121,6 +121,13 @@ section:last-child {
 	float: right;
 	width: 72.5%;
 }
+.projectSummary h1{
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #cf8a05;
+	margin-bottom: 20px;
+}
 
 .sectionTitle h1 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
