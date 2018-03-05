@@ -121,15 +121,19 @@ section:last-child {
 	float: right;
 	width: 72.5%;
 }
-.projectSummary h1{
+.projectSummaryHeading h1{
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
 	color: #cf8a05;
 	margin-bottom: 20px;
 }
+.projectSummary p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
 
-.sectionTitle h1 {
+.sectionTitle p {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
@@ -373,4 +377,19 @@ section:last-child {
 	float: left;
 	font-size: 1em;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.story .itemLeft{
+	width: 25%;
+	display: inline-block;
+	font-size: 1em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+	float: left;
+}
+.story .itemRight{
+	display: block;
+	overflow: hidden;
+}
+.story{
+	width: 100%;
+	margin: 10px 0px 10px 0;
 }
