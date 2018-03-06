@@ -23,7 +23,7 @@ p {
 }
 
 #cv {
-	width: 90%;
+	width: 100%;
 	max-width: 800px;
 	background: #f3f3f3;
 	margin: 30px auto;
@@ -133,7 +133,7 @@ section:last-child {
 	margin-top: 10px;
 }
 
-.sectionTitle p {
+.sectionTitle p{
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
@@ -165,7 +165,7 @@ section:last-child {
 .keySkills ul li {
 	margin-bottom: 3px;
 }
-
+/* 
 @media all and (min-width: 602px) and (max-width: 800px) {
 	#headshot {
 		display: block;
@@ -242,7 +242,7 @@ section:last-child {
     #cv {
         width: 100%;
     }
-}
+} */
 
 @-webkit-keyframes reset {
 	0% {
@@ -389,7 +389,56 @@ section:last-child {
 	display: block;
 	overflow: hidden;
 }
+.skill .right{
+	display: block;
+	overflow: hidden;
+	
+	padding-left: 4em;
+}
+.skill .left{
+	width:30%;
+	float: left;
+	display: inline-block;
+}
+.skill li{
+	margin-top: 1em;
+}
+.tskill{
+	width: 100%;
+}
+li ul{
+	margin-left: 2em;
+}
 .story{
 	width: 100%;
 	margin: 10px 0px 10px 0;
+}
+.company span{
+	width: 30%;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+	overflow: hidden;
+	
+}
+.company{
+	margin-bottom: 1em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+}
+.companySummary li{
+	margin-bottom: 0.5em;
+	margin-bottom: 0.5em;
+}
+.companySummary{
+	margin-left: 4em;
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+.heading{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+.section{
+	margin-bottom: 1em;
 }
