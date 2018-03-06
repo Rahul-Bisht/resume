@@ -23,7 +23,7 @@ p {
 }
 
 #cv {
-	width: 100%;
+	width: 90%;
 	max-width: 800px;
 	background: #f3f3f3;
 	margin: 30px auto;
@@ -405,6 +405,7 @@ section:last-child {
 }
 .tskill{
 	width: 100%;
+	margin-left: 4em;
 }
 li ul{
 	margin-left: 2em;
